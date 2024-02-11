@@ -1,0 +1,111 @@
+.myimgfluid {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.home-background {
+    display: inline-block !important;
+}
+
+.myItem li a {
+    border-radius: 10px !important;
+    font-weight: 500;
+}
+
+.myItem2 li {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.myItem2 li a {
+    text-decoration: underline;
+}
+
+.myButtonNav {
+    color: #FF884D !important;
+}
+
+.myButtonNav:hover {
+    background: white;
+    color: #41C3AC !important;
+}
+
+.myRecommendedArticle {
+    padding: 20px !important;
+    overflow: hidden;
+    min-height: 17rem;
+    border: 1px solid #edeef0;
+    border-radius: 8px;
+    border: 1px solid #edeef0;
+    box-shadow: 1px 4px 6px 0 rgb(20 20 20 / 30%);
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.grecaptcha-badge {
+    visibility: hidden !important;
+}
+
+.myBorderRadius {
+    border-radius: 0.9rem !important;
+}
+
+.myBorderRadiusRight {
+    border-radius: 0rem 0.9rem 0.9rem 0rem !important;
+}
+
+.myModelMail {
+    max-width: 60rem !important;
+}
+
+.mySector2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.mySector2::after {
+    content: "\025be";
+    display: table-cell;
+
+}
+
+.modalloading {
+    height: 100vh;
+    background-image: url('../front/images/bg_crm_creadonew.png');
+    background-size: cover;
+}
+
+.caja {
+    /* margin:20px auto 40px auto;	 */
+    /* border:1px solid #d9d9d9; */
+    height: 30px;
+    /* overflow: hidden; */
+    width: 100%;
+    /* position:relative; */
+}
+
+.caja::after {
+    content: "\025be";
+    display: table-cell;
+    padding-top: 7px;
+    /* text-align:center; */
+    width: 30px;
+    height: 30px;
+    background-color: #d9d9d9;
+    position: absolute;
+    /* top:0; */
+    /* right:0px;	 */
+    pointer-events: none;
+}
+
+.myList {
+    list-style: none;
+}
